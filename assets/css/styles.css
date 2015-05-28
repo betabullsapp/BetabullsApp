@@ -1,0 +1,87 @@
+.mainLogo{
+	width:45px;
+	height:45px;
+}
+
+.navbar-brand{
+	padding:0;
+}
+.betaBullsLogo{
+	font-weight: 100;
+	font-size: 24px !important;
+	letter-spacing: 3px !important;
+	font-family: inherit;
+	padding:10px 0;
+}
+.navbar li a{
+	padding-top:20px;
+	padding-bottom: 25px;
+}
+.navbar{
+	border:none;
+}
+.col-centered{
+	float: none;
+	margin:0 auto;
+}
+.innerBoxes{
+	
+  background: rgba(255,255,255,0.74);
+  border: 1px solid #FFEDED;
+  padding: 35px;
+  margin-bottom: 35px;
+  min-height:308px;
+ 
+}
+.innerBoxes:hover h4{
+	font-size: 20px;
+
+}
+.innerBoxes img,.innerBoxes svg{
+	width:35px;
+	height:35px;
+}
+.innerBoxes:hover i{
+	font-size: 55px;
+}
+.innerBoxes:hover img,.innerBoxes:hover svg{
+	height:50px;
+	width:50px;
+}
+.innerBoxes path{
+	
+	fill: #ff7878;
+}
+.iconSize{
+	width:75px;
+}
+
+.innerBoxes:hover p{
+	font-size: 14px;
+}
+.innerBoxes:hover{
+	
+	box-shadow: 5px 5px 5px #E7E7E7;
+
+}
+.brakicon{
+	background-color: #0a3868;
+	border-radius: 25%;
+}
+.ourWorksBackground{
+	background: #DDDDDD;
+  padding: 50px 33px 13px;
+  border-radius: 33px;
+  margin: 10px 33px;
+  border: 1px solid #E9E9E9;
+}
+.btnStyles{
+	padding:13px 32px;
+	font-size: 20px;
+	font-weight: 800;
+}
+@media only screen and (min-width : 992px) {
+	.innerBoxes:hover{
+	transform:scale(1.1);
+}
+}
