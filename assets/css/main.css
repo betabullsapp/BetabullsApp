@@ -308,6 +308,7 @@ a:after {
     font-weight: 300;
     font-size: 16px;
     color: #555;
+    height:595px;
 }
 
 .modal-footer {

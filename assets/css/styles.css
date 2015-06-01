@@ -200,6 +200,7 @@
 
 .modalStyles{
 	padding-bottom: 0;
+	height:auto;
 }
 #blue{
 	margin-top: -5px;
@@ -251,7 +252,7 @@
 	padding:50px 0;
 }
 #r h3{
-	font-weight: 600;
+	
 	color:#333333;
 }
 #leanFreePlans{
@@ -327,11 +328,11 @@
   padding: 77px 0 0px 35px !important;
 }
 
-#myModalLeanVideo .modal-body{
+#myModalLeanVideo .modal-body,#myModalStartUpLeanVideo .modal-body,#myModalRunningLeanVideo .modal-body{
 	background-color: #222;
 	padding-bottom: 20px;
 }
-#myModalLeanVideo iframe{
+#myModalLeanVideo iframe,#myModalStartUpLeanVideo iframe,#myModalRunningLeanVideo iframe{
 	width:540px;
 	height:280px;
 	border:none;
@@ -346,3 +347,50 @@
 
 
 }
+.simpleOnBoardImg{
+	margin:0 auto;
+}
+iframe body,iframe html{
+	background:#f7f7f7;
+	height:522px;
+
+}
+#leanBooks{
+	padding-top:75px;
+	padding-bottom:  131px;
+	
+}
+#leanBooks h1{
+	font-size: 38.5px;
+}
+#leanBooks .col-md-2{
+	width:20%;
+	margin:0 auto;
+}
+#leanBooks img{
+	padding-top: 20px;
+}
+.paly-icon{
+	transition: 1s;
+  opacity: 0;
+  width: 222px;
+  height: 222px;
+  position: absolute;
+  margin: 186px 0 0 91px;
+  fill: #fff;
+  cursor: pointer;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+#leanBooks a:hover svg{
+	opacity:0.9;
+}
+.leanSeriesplay svg{
+	margin:90px 0px 20px 0px;
+
+}
+.calendar-page{
+    padding: 0 33px 33px;
+    display: block;
+  }
